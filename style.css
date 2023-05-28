@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,200;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+:root {
+    --black: #000;
+    --pink: #FF47FF;
+    --green: #61CE70;
+    --silver: #7A7A7A;
+    --gray: #54595F;
+    --blue: #6EC1E4;
+  }
+
+  
+
+  h5{
+    color: var(--pink);
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 140px;
+  }
+
+  body{
+    background-color: var(--black);
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header .main{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .main i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .main ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .main ul li{
+    color: #fff;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .main ul li:hover{
+    color: var(--pink);
+    transform: scale(1.1);
+  }
+
+  .ban img{
+    width: 100%;
+  }
+
+  .headings{
+    text-align: right;
+    color: #fff;
+  }
+
+  .text-box{
+    display: flex;
+    align-items: center;
+
+  }
+  .headings img{
+    width: 140px;
+  }
+  .headings h1{
+    font-family: Raleway;
+    font-weight: 900 ;
+  }
+  .headings h2{
+    color: var(--pink);
+    font-family: Poppins;
+    font-style: italic;
+  }
+  .headings p{
+    color: #fff;
+  }
+
+  .lap img{
+    width: 100%;
+    text-align: right;
+  }
+
+  .heading1{
+    text-align: left;
+    color: #fff;
+  }
+
+
+  .banner{
+    background-image: url("ASSETS/11.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shadow{
+    width: 50%;
+    text-align: center;
+    background-color: #0000009f;
+    padding: 20px;
+  }
+
+  .shadow h3{
+    color: #fff;
+    font-weight: 600;   
+    font-size: 40px;
+  }
+  .shadow h6{
+    color: var(--pink);
+    font-size: 35px;
+    font-style: italic;
+  }
+  .shadow p{
+    color: #fff;
+  }
+
+  .mob{
+    width: 40%;
+  }
+
+  .image{
+    margin: 0px; 
+    padding: 0px;
+  }
+
+  .image img{
+    width: 100%;
+  }
+
+  .learn img{
+    width: 34%;
+  }
+
+  .learn h2{
+    color: #fff;
+    font-weight: bolder;
+  }
+  .learn p{
+    color: #fff;
+    width: 56%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .spac1{
+    justify-content: space-around;
+  }
+
+  .textdec h1{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .textdec h4{
+    color: var(--pink);
+    font-style: italic;
+    text-align: center;
+  }
+  .textdec h6{
+    color: var(--pink);
+    text-align: center;
+  }
+  .textdec p{
+    color: #fff;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .token img{
+    width: 100px;
+    display: inline;
+  }
+  .token p{
+    display: inline;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    header{
+        justify-content: center;
+    }
+    .main {
+      width: 46% !important;
+      margin-top: 10px !important;
+    }
+    .main i{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .main {
+    width: 100% !important;
+      justify-content: center !important;
+    }
+    .main i{
+        font-size: 20px;
+        margin: 20px !important;
+    }
+    .shadow{
+        width: 90%;
+        padding: 20px;
+      }
+      h5{
+        font-size: 80px;
+      }
+      .learn{
+        margin-top: 35px;
+      }
+      .learn img{
+        width: 50%;
+      }
+      
+  }
+
+  @media only screen and (max-width: 568px) {
+    .main i{
+        font-size: 18px;
+        margin: 10px !important;
+    }
+    .main ul li{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 44px;
+    }
+    .learn p{
+      width: 96%;
+    }
+
+  }
+
+  @media only screen and (max-width: 368px) {
+    .main i{
+        font-size: 15px;
+        margin: 6px !important;
+    }
+    .main ul li{
+        font-size: 10px;
+    }
+    .shadow{
+        width: 100%;
+        padding: 10px;
+      }
+  }
