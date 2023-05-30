@@ -220,6 +220,7 @@ font-family: 'Roboto', sans-serif; */
   }
   .img43 img{
     width: 25%;
+    margin-right: 10px;
   }
 
   @media only screen and (max-width: 1000px) {
